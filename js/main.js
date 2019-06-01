@@ -1,6 +1,6 @@
 const button = document.querySelector('button');
 const breedInput = document.querySelector('input');
-const imageDiv = document.querySelector('div');
+const imageDiv = document.getElementById('img-div');
 
 button.addEventListener('click', async () => {
   let breed = breedInput.value;
