@@ -1,0 +1,71 @@
+body {
+  font-family: 'Lucida Grande';
+  background-color: #acbfb3;
+}
+
+.header {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 40px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+.btn-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.list-item {
+  color: black;
+  letter-spacing: 1px;
+  margin: 0 12px;
+}
+
+.breed-search {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.breed-input {
+  margin: 0 auto;
+  border-radius: 40px;
+  width: 150px;
+  height: 20px;
+}
+
+.dogme-btn {
+  margin: 0 auto;
+  margin-top: 15px;
+  font-family: 'Lucida Grande';
+  font-size: 12px;
+  width: 80px;
+  height: 30px;
+  border-radius: 60px;
+}
+
+.breed-btn {
+  margin: 0 auto;
+  font-family: 'Lucida Grande';
+  font-size: 12px;
+  width: 100px;
+  height: 40px;
+  border-radius: 60px;
+}
+
+.list {
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  column-count: 4;
+}
+
+.dogpic {
+  width: 80%;
+  height: auto;
+  margin-top: 100px;
+  margin: 0 auto;
+}
