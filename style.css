@@ -13,21 +13,31 @@ body {
 
 .btn-nav {
   list-style: none;
-  display: flex;
-  justify-content: center;
   margin-right: 30px;
+  text-align: center;
 }
 
 .list-item {
   color: black;
   letter-spacing: 1px;
-  margin: 0 12px;
+}
+
+.one {
+  float: left;
+  margin-left: 15%;
+  width: 20em;
+}
+
+.two {
+  float: right;
+  margin-right: 15%;
+  width: 20em;
 }
 
 .breed-search {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-left: 40%;
+  display: block;
 }
 
 .breed-input {
@@ -62,11 +72,11 @@ body {
   font-size: 20px;
   text-align: center;
   column-count: 4;
+  margin-left: -380px;
 }
 
 .dogpic {
-  display: flex;
   width: 60%;
   height: auto;
-  margin: 0 auto;
+  margin-left: 20%;
 }
